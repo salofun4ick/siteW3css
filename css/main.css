@@ -1,0 +1,68 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.branding {
+    font-size: 17px;
+}
+
+.showcase {
+    background: url(../img/showcase.jpg) no-repeat center/cover;
+    height: 70vh;
+    padding: 15rem 6.2rem;
+    color: #fff;
+}
+
+.showcase h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.showcase hr {
+    width: 100px;
+    margin: auto;
+    border-color: #f44336;
+    border-width: 3px;
+}
+
+.showcase p {
+    font-size: 1rem;
+    padding-bottom: 1.25rem;
+}
+
+.section {
+    padding: 2.5rem 0;
+}
+
+.section h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.section .fas {
+    font-size: 3.125rem;
+}
+
+.section img {
+    width: 100%;
+}
+
+.serv-tittle {
+    max-width: 140px;
+    margin: 0 auto;
+    line-height: 1.4em;
+    padding-top: 1rem;
+}
+
+@media only screen and (max-width:600px) {
+    body{
+        margin-top: 190px;
+    }
+
+    .showcase {
+        height: 400px;
+        padding: 60px 0;
+    }
+}
+
